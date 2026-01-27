@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50">
-      <main className="flex w-full max-w-3xl flex-col items-center gap-10 py-24 px-10 bg-white rounded-lg shadow">
+      <main className="text-black flex w-full max-w-3xl flex-col items-center gap-10 py-24 px-10 bg-white rounded-lg shadow">
         <Image
           src="/images/book1.png"
           alt="The Cozy Corner"
@@ -14,7 +14,7 @@ export default function Home() {
         />
 
         <div className="text-center">
-          <h1 className="text-3xl font-semibold tracking-tight">
+          <h1 className="text-3xl text-black font-semibold tracking-tight">
             Welcome to The Cozy Corner
           </h1>
           <p className="mt-4 text-zinc-600">
@@ -33,7 +33,7 @@ export default function Home() {
 
           <Link
             href="/about"
-            className="flex h-12 items-center justify-center rounded-full border px-6 hover:bg-zinc-100"
+            className="text-black flex h-12 items-center justify-center rounded-full border px-6 hover:bg-zinc-100"
           >
             Learn More
           </Link>

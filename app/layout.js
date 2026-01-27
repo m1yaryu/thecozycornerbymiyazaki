@@ -25,8 +25,8 @@ export default function RootLayout({ children }) {
       >
         <header className="border-b bg-white">
           <div className="mx-auto max-w-6xl flex justify-between items-center p-4">
-            <h1 className="text-xl font-semibold">The Cozy Corner</h1>
-            <nav className="space-x-4 text-sm">
+            <h1 className="text-xl text-black font-semibold">The Cozy Corner</h1>
+            <nav className="text-black space-x-4 text-sm">
               <Link href="/">Home</Link>
               <Link href="/about">About</Link>
               <Link href="/books">Books</Link>
