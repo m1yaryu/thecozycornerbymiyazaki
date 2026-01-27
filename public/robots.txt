@@ -1,0 +1,3 @@
+Sitemap: https://thecozycornerby-miyazaki.vercel.app/sitemap.xml
+User-agent: *
+Disallow:
